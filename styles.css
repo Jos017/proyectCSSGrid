@@ -1,10 +1,10 @@
 :root {
-    --plum-web: #f7aef8ff;
-    --magenta-dye: #c20071ff;
-    --dark-cornflower-blue: #20396bff;
-    --maximum-blue: #5cb3d6ff;
-    --just-white: #ffffffff;
-    --just-black: #09080dff;
+    --plum-web: #f7aef8;
+    --magenta-dye: #c20071;
+    --dark-cornflower-blue: #20396b;
+    --maximum-blue: #5cb3d6;
+    --just-white: #ffffff;
+    --just-black: #09080d;
 }
 * {
     box-sizing: border-box;
