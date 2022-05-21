@@ -13,5 +13,14 @@
 }
 html {
     font-size: 62.5%;
+}
+body {
+    height: 100vh;
     font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(to left top, #c20071, #a6207e, #862f84, #663783, #463a7c, #3b4482, #304e86, #285688, #316c9d, #3c84b1, #4b9bc4, #5cb3d6);
+}
+.container {
+    height: 100%;
+    display: grid;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
 }
