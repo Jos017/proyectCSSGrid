@@ -1,0 +1,11 @@
+:root {
+    --plum-web: #f7aef8ff;
+    --magenta-dye: #c20071ff;
+    --dark-cornflower-blue: #20396bff;
+    --maximum-blue: #5cb3d6ff;
+    --just-white: #ffffffff;
+    --just-black: #09080dff;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
