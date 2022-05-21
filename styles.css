@@ -17,10 +17,80 @@ html {
 body {
     height: 100vh;
     font-family: 'Quicksand', sans-serif;
-    background-image: linear-gradient(to left top, #c20071, #a6207e, #862f84, #663783, #463a7c, #3b4482, #304e86, #285688, #316c9d, #3c84b1, #4b9bc4, #5cb3d6);
+    color: var(--just-white);
 }
 .container {
     height: 100%;
     display: grid;
-    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+    grid-template: repeat(20, 1fr) / repeat(20, 1fr);
+    background-image: url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?cs=srgb&dl=pexels-lucie-liz-3165335.jpg&fm=jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item-1 {
+    background-image: linear-gradient(to bottom, #c20071, #a6207e, #862f84, #663783, #463a7c, #3b4482, #304e86, #285688, #316c9d, #3c84b1, #4b9bc4, #5cb3d6);
+    grid-area: 1 / 19 / 21 / 21;
+}
+.item-2 {
+    grid-area: 10 / 8 / 21 / 20;
+}
+.item-3 {
+    grid-area: 11 / 2 / 18 / 11;
+}
+.item-3 h1 {
+    font-size: 4rem;
+}
+.item-4 {
+    grid-area: 4 / 12 / 7 / 20;
+    background-color: var(--plum-web);
+    place-self: center;
+    text-align: start;
+    padding: 24px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.item-5 {
+    grid-area: 2 / 14 / 3 / 16;
+    place-self: center;
+    text-align: center;
+    width: 100%;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: var(--dark-cornflower-blue);
+}
+.item-6 {
+    grid-area: 2 / 16 / 2 / 18;
+    place-self: center;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    background-color: var(--maximum-blue);
+}
+.item-7 {
+    max-width: 200px;
+    max-height: 200px;
+    grid-area: 1 / 1 / 5 / 5;
+    border-block-end: 25px solid var(--maximum-blue);
+    border-inline-end: 25px solid var(--maximum-blue);
+    border-radius: 50%;
+}
+.item-8 {
+    max-width: 250px;
+    max-height: 250px;
+    grid-area: 1 / 1 / 6 / 6;
+    border-block-end: 25px solid var(--plum-web);
+    border-inline-end: 25px solid var(--plum-web);
+    border-radius: 50%;
+}
+.item-9 {
+    grid-area: 1 / 1 / 7 / 7;
+    max-width: 300px;
+    max-height: 300px;
+    border-block-end: 25px solid var(--magenta-dye);
+    border-inline-end: 25px solid var(--magenta-dye);
+    border-radius: 50%;
 }
